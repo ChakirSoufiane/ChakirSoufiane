@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="340" viewBox="0 0 1200 340" role="img" aria-labelledby="bannerTitle bannerDescription">
+  <title id="bannerTitle">Soufiane Chakir — Student Developer</title>
+  <desc id="bannerDescription">Navy and turquoise GitHub profile banner for a student developer building ORIENTEXA.</desc>
+  <defs>
+    <linearGradient id="base" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#091427"/>
+      <stop offset="100%" stop-color="#10243C"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" x2="1">
+      <stop offset="0%" stop-color="#1EE0C0"/>
+      <stop offset="100%" stop-color="#57A6EF"/>
+    </linearGradient>
+    <pattern id="grid" width="38" height="38" patternUnits="userSpaceOnUse">
+      <path d="M38 0H0V38" fill="none" stroke="#24405A" stroke-width="1" opacity="0.22"/>
+    </pattern>
+    <clipPath id="round"><rect width="1200" height="340" rx="18"/></clipPath>
+  </defs>
+  <g clip-path="url(#round)">
+    <rect width="1200" height="340" fill="url(#base)"/>
+    <rect width="1200" height="340" fill="url(#grid)"/>
+    <rect x="55" y="55" width="4" height="230" rx="2" fill="url(#accent)"/>
+    <text x="88" y="92" font-family="Segoe UI,Arial,sans-serif" font-weight="700" font-size="19" letter-spacing="3" fill="#29D6BB">STUDENT DEVELOPER · MOROCCO</text>
+    <text x="88" y="157" font-family="Segoe UI,Arial,sans-serif" font-weight="800" font-size="52" fill="#FFFFFF">SOUFIANE CHAKIR</text>
+    <text x="88" y="209" font-family="Segoe UI,Arial,sans-serif" font-weight="600" font-size="29" fill="#D8E6F5">Building <tspan fill="#2CE0C1">ORIENTEXA</tspan></text>
+    <text x="88" y="249" font-family="Segoe UI,Arial,sans-serif" font-weight="400" font-size="19" fill="#ABC1D5">Exploring technology to make education clearer.</text>
+    <g opacity="0.9" transform="translate(880 163)">
+      <circle cx="0" cy="0" r="122" fill="#12BDA5" opacity="0.07"/>
+      <circle cx="0" cy="0" r="86" fill="none" stroke="#2B6075" stroke-width="2" stroke-dasharray="5 10"/>
+      <path d="M-102 41 L-38 -38 L38 17 L105 -60" stroke="url(#accent)" stroke-width="5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+      <circle cx="-102" cy="41" r="13" fill="#122D44" stroke="#2CE0C1" stroke-width="5"/>
+      <circle cx="-38" cy="-38" r="13" fill="#122D44" stroke="#2CE0C1" stroke-width="5"/>
+      <circle cx="38" cy="17" r="13" fill="#122D44" stroke="#5DAEEC" stroke-width="5"/>
+      <circle cx="105" cy="-60" r="15" fill="#2CE0C1"/>
+      <path d="M98 -60 L105 -67 L112 -60 L105 -53Z" fill="#092334"/>
+      <circle cx="0" cy="0" r="147" fill="none" stroke="#275770" stroke-width="1" opacity="0.55"/>
+    </g>
+    <text x="1128" y="304" font-family="Segoe UI,Arial,sans-serif" font-size="12" fill="#6F9CB2" text-anchor="end" letter-spacing="3">LEARN · BUILD · IMPROVE</text>
+  </g>
+</svg>
